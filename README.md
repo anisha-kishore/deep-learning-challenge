@@ -17,6 +17,12 @@ ASK_AMT—Funding amount requested
 IS_SUCCESSFUL—Was the money used effectively
 
 # Analysis
-## Structure and Purpose
+## Overview
 ## Questions
-## Different Model
+1. What variables is the target for your model?
+2. What variables are the features for your model?
+3. What variables should be removed from the input data because they are neither targets nor features?
+4. How many neurons, layers, and activation functions did you select for your neural network model, and why?
+5. Were you able to achieve the target model performance?
+6. What steps did you take in your attempts to increase model performance?
+## Summary
