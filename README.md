@@ -18,11 +18,18 @@ IS_SUCCESSFUL—Was the money used effectively
 
 # Analysis
 ## Overview
+The purpose of the analysis is to go through the steps I didwhen I tried to build and optimize a model. I was not able to get to 75% accuracy, but was able to increase my accuracy percentage mainly bu adding another hidden layer but also by other steps which I have detailed below.
 ## Questions
 1. What variables is the target for your model?
-2. What variables are the features for your model?
-3. What variables should be removed from the input data because they are neither targets nor features?
-4. How many neurons, layers, and activation functions did you select for your neural network model, and why?
-5. Were you able to achieve the target model performance?
-6. What steps did you take in your attempts to increase model performance?
+   IS_SUCCESSFUL is the target variable of my model.
+3. What variables are the features for your model?
+    APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION','USE_CASE', 'ORGANIZATION', 'STATUS', 'INCOME_AMT', 'SPECIAL_CONSIDERATIONS', and 'ASK_AMT' are the feature variables are the features of my model.
+5. What variables should be removed from the input data because they are neither targets nor features?
+   I am removing 'EIN', 'NAME', and 'STATUS' because there are neither target nor feature variables.
+7. How many neurons, layers, and activation functions did you select for your neural network model, and why?
+   My first hidden layer had 80 neurons, second hidden layer had 40, and third hidden layer had 20 neurons. I used relu for the hidden layers, but made the activation layer linear.
+9. Were you able to achieve the target model performance?
+    No, I was able to increase accuracy but was not able to get to 75% accuracy.
+11. What steps did you take in your attempts to increase model performance?
+    In order to increase model performance, I added another layer, I removed the 'STATUS' column, changed the hidden nodes layers, and decreased the number of epochs.
 ## Summary
